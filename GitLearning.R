@@ -10,7 +10,7 @@ setwd("/Users/kimlong_1/Documents/Western Sydney Univeristy MBA/Spring 2024 /Pro
 d <- read.csv("epiSEIHCRD_combAge.csv")
 # We find that the time variable is not of type Date
 # So it is changed to date type where time 0 is 1/3/2020
-d$t <- as.Date(d$t, origin = "2020-03-01")
+d$t <- as.Date(d$t, origin = "2024-4-4")
 # The default palette is not suitable for those with colour blindness
 # Set the colour palette for plots
 cbbPalette <- c("#000000", "#E69F00", "#56B4E9", "#009E73", "#F0E442",
